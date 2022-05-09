@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JURIS JURIS</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+<h1>Šis ir mans 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">virsraksts</a>
+</h1>
+
+<!-- P ir rindkopa. Pirms un pēc tās būs jaunas rindas vienmēr.-->
+
+<!-- Šis nav labais stils -->
+<p style="color:blue">Ārā spīd saule</p>
+
+
+
+
+<h3 class="zalsteksts">Apakšvirsraksts pirmajai rindkopa</h3>
+
+
+<p class="zalsteksts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit nulla quam, nec iaculis erat commodo et. In hac habitasse platea dictumst. Duis viverra sodales vehicula. Praesent vitae urna consectetur, fermentum sapien id, varius magna. <a href="https://en.wiktionary.org/wiki/quisque" target="_blank">Quisque</a> faucibus a nibh sit amet rutrum. Praesent ut varius dolor, non ullamcorper leo. Mauris non magna volutpat, semper urna non, eleifend justo. In placerat diam enim. Proin dapibus in purus dictum pretium. Vivamus eu enim et elit dignissim blandit vel ac justo. In eget rutrum velit, varius tempus urna. Sed dapibus erat tortor, eu tristique nisi tempus ac. Cras iaculis, justo sit amet blandit.</p>
+
+<br>
+
+<h3>Apakšvirsraksts otrajai rindkopa</h3>
+<p id="A124123412312">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit nulla quam, nec iaculis erat commodo et. In hac habitasse platea dictumst. Duis viverra sodales vehicula. Praesent vitae urna consectetur, fermentum sapien id, varius magna. <strong>Quisque faucibus a nibh sit amet rutrum.</strong> Praesent ut varius dolor, non ullamcorper leo. Mauris non magna volutpat, semper urna non, eleifend justo. In placerat diam enim. Proin dapibus in purus dictum pretium. Vivamus eu enim et elit dignissim blandit vel ac justo. In eget rutrum velit, varius tempus urna. Sed dapibus erat tortor, eu tristique nisi tempus ac. Cras iaculis, justo sit amet blandit.</p>
+
+<a href="https://www.linkedin.com/in/juriskreilis/" target="_blank">SAITE</a>  UZ LINKEDIN
+<br>
+
+<h4>Bilde no interneta</h4>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mute_swan_cygnet_pontoon_in_Prospect_Park_%2880364%29.jpg/1920px-Mute_swan_cygnet_pontoon_in_Prospect_Park_%2880364%29.jpg" height="200px" alt="Bilde ar Pīlēm" >
+
+<h4>Bilde no failu sistēmas</h4>
+<img src="images/sample_640×426.png" width="25%">
+<div id="specialramitis">
+<div class="ramitis left">
+<h4>Pirkuma saraksts</h4>
+<ul>
+    <li>
+        <a href="https://www.barbora.lv/produkti/kartupeli-sarkanie-liepsetas-2-5-kg" target="_blank">Kartupeļi</a>
+    </li>
+    <li>Burkāni</li>
+    <li>Ziepes</li>
+    <li>Maize</li>
+</ul>
+</div>
+
+
+<div class="ramitis right">
+<h5>Omletes recepte</h5>
+    <ol>
+        <p>test</p>
+        <li>Iesist olas bļodā</li>
+        <li>Pievienot pienu</li>
+        <li>Visu sakult 3 min</li>
+        <li>Uzkarsēt pannu</li>
+        <li>Ieliet maisījumu pannā</li>
+        <li>Cept 10 minūtes</li>
+        <li>Pasniegt karstu</li>
+    </ol>
+</div>
+</div>
+
+<input id="vecums">
+<br>
+<button id="poga">SPIED MANI!</button>
+<p>Lietotāja vecums ir: <strong id="lietotajavecums"></strong> </p>
+
+
+
+</body>
+
+<script>
+document.getElementById("poga").onclick = function() {
+    var vecums = document.getElementById("vecums").value;
+    alert(vecums);
+    document.getElementById("lietotajavecums").innerText = vecums;
+};
+</script>
+
+
+</html>

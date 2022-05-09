@@ -1,0 +1,44 @@
+.zalsteksts {
+   color:green; 
+   border-style: groove;
+}
+
+p#A124123412312 {
+    color:darkviolet;
+    font-size: large;
+}
+
+div.ramitis {
+    border-style: double;
+    border-color: chocolate;
+}
+
+#specialramitis{
+    border-style: dashed;
+    border-color: cornflowerblue;
+    margin:20px;
+    padding: 20px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+ul li {
+    font-style: italic;
+}
+
+ol li {
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(246, 224, 194);
+}
+
+.left{
+    background-color: aqua;
+}
+
+.right{
+    background-color:blueviolet;
+}
